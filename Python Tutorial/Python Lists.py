@@ -135,7 +135,7 @@ def main():
     print(thislist)
     
     
-    # List Methods
+    # List Methodss
     thislist = ["apple", "banana", "cherry"]
     thislist.clear()
     print(thislist)
