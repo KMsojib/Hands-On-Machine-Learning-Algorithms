@@ -24,6 +24,14 @@ def main():
     # Allow Duplicates
     thistuple = ("apple", "banana", "cherry", "apple", "cherry")
     print(thistuple)
+    
+    # join tuple
+    tuple1 = ("a", "b", "c")
+    tuple2 = (1, 2, 3)
+    tuple3 = tuple1 + tuple2
+    print("Joined tuple:", tuple3)
+    
+    
 
 if name == "__main__":
     main()
