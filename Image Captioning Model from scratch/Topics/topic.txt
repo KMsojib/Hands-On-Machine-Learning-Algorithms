@@ -1,0 +1,64 @@
+ImageCaptioningProject/
+│
+├── 01_Image_Preprocessing/
+│   ├── Resize and normalize images
+│   ├── Use pre-trained CNNs (ResNet, Inception, EfficientNet)
+│   └── Extract and save image feature vectors
+│
+├── 02_Text_Preprocessing/
+│   ├── Clean captions (lowercase, remove punctuation)
+│   ├── Tokenize and build vocabulary
+│   ├── Add <start> and <end> tokens
+│   └── Pad caption sequences
+│
+├── 03_Exploratory_Data_Analysis/
+│   ├── Visualize dataset samples
+│   ├── Caption length distribution
+│   └── Most frequent words
+│
+├── 04_Data_Pair_Creation/
+│   ├── Match image features with captions
+│   ├── Create (image, input_seq) → target_word
+│   └── Save training-ready dataset
+│
+├── 05_Model_Architecture/
+│   ├── Encoder (CNN Feature Mapper)
+│   ├── Decoder (LSTM/GRU/Transformer)
+│   ├── Attention Mechanism (optional)
+│   └── Custom Model Class (if using PyTorch/TensorFlow subclassing)
+│
+├── 06_Training/
+│   ├── Training loop or `model.fit()`
+│   ├── Loss Function (Categorical Crossentropy)
+│   ├── Teacher Forcing
+│   ├── Saving checkpoints
+│   └── TensorBoard or training visualizations
+│
+├── 07_Caption_Generation/
+│   ├── Greedy Search
+│   ├── Beam Search (optional)
+│   └── Visualize generated captions on test images
+│
+├── 08_Evaluation_Metrics/
+│   ├── BLEU
+│   ├── METEOR
+│   ├── ROUGE
+│   └── CIDEr
+│
+├── 09_UI_and_Deployment/
+│   ├── Streamlit/Flask Web App
+│   ├── Upload image → caption
+│   └── Deploy on Hugging Face or Render
+│
+├── 10_Utilities/
+│   ├── Helper functions
+│   ├── Configs and constants
+│   └── Logging
+│
+├── 11_Research_Papers_and_Notes/
+│   ├── Show and Tell (2015)
+│   ├── Show, Attend and Tell (2016)
+│   ├── Transformer-based methods
+│   └── Your own learning notes
+│
+└── README.md
